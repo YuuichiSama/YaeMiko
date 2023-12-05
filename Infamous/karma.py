@@ -10,16 +10,16 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://graph.org/file/bebdf995932bc2e1e0601.jpg",
+    "https://graph.org/file/3a87bd1bfd3e18d156d7f.jpg",
+    "https://graph.org/file/fea36e7d958f7254f82bd.jpg",
+    "https://graph.org/file/f32dea55756c9ffa1c2ca.jpg",
+    "https://graph.org/file/7000d420f8898bf7edec0.jpg",
+    "https://graph.org/file/4eee7968c3f82713d3ebd.jpg",
+    "https://graph.org/file/950f4f0937d29b1647da9.jpg",
 ]
 
-HEY_IMG = "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg"
+HEY_IMG = "https://graph.org/file/f32dea55756c9ffa1c2ca.jpg"
 
 ALIVE_ANIMATION = [
     "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
