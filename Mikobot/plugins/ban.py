@@ -86,7 +86,7 @@ async def tban_usr(c: app, m: Message):
         admins_group = await admin_cache_reload(m, "ban")
 
     if user_id in admins_group:
-        await m.reply_text(text="This user is an admin, I cannot ban them!")
+        await m.reply_text(text="Sorry Darling, You are not worthy to wield ban hammer on an admin!")
         await m.stop_propagation()
 
     try:
@@ -147,7 +147,7 @@ async def tban_usr(c: app, m: Message):
             text="Cannot act on this user, maybe I wasn't the one who changed their permissions."
         )
     except RightForbidden:
-        await m.reply_text(text="I don't have enough rights to ban this user.")
+        await m.reply_text(text="Please tell the group owner to give me ban rights here.")
     except RPCError as ef:
         await m.reply_text(
             (
@@ -176,7 +176,7 @@ async def stban_usr(c: app, m: Message):
         await m.reply_text("Cannot find user to ban")
         return
     if user_id == BOT_ID:
-        await m.reply_text("What the heck? Why would I ban myself?")
+        await m.reply_text("Know your place, fool!")
         await m.stop_propagation()
 
     if user_id in SUPPORT_STAFF:
@@ -305,7 +305,7 @@ async def dtban_usr(c: app, m: Message):
         admins_group = await admin_cache_reload(m, "ban")
 
     if user_id in admins_group:
-        await m.reply_text(text="This user is an admin, I cannot ban them!")
+        await m.reply_text(text="Sorry Darling, You are not worthy to wield ban hammer on an admin!")
         await m.stop_propagation()
 
     try:
@@ -416,7 +416,7 @@ async def kick_usr(c: app, m: Message):
         admins_group = await admin_cache_reload(m, "kick")
 
     if user_id in admins_group:
-        await m.reply_text(text="This user is an admin, I cannot kick them!")
+        await m.reply_text(text="Don't act highly of you, I won't kick an admin!")
         await m.stop_propagation()
 
     try:
@@ -787,10 +787,10 @@ async def dban_usr(c: app, m: Message):
         await m.reply_text("Cannot find user to ban")
         return
     if user_id == m.chat.id:
-        await m.reply_text("That's an admin!")
+        await m.reply_text("Sorry Darling, You are not worthy to wield ban hammer on an admin!")
         await m.stop_propagation()
     if user_id == BOT_ID:
-        await m.reply_text("Huh, why would I ban myself?")
+        await m.reply_text("I'll kill you, bastard!")
         await m.stop_propagation()
 
     if user_id in SUPPORT_STAFF:
