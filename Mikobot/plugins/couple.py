@@ -32,7 +32,7 @@ def dt_tom():
 tomorrow = str(dt_tom())
 today = str(dt()[0])
 
-COUPLES_PIC = "https://telegra.ph/file/48b3b6c0062f8aa4aa26d.jpg"
+COUPLES_PIC = "https://telegra.ph/file/c6d0c884f559b9ed8a54e.jpg"
 C = """
 ✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
