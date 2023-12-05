@@ -351,7 +351,7 @@ async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 welcome_log = (
                     "{}\n"
                     "#USER_JOINED\n"
-                    "Bot owner just joined the group".format(html.escape(chat.title))
+                    "My owner just joined the group".format(html.escape(chat.title))
                 )
                 continue
 
