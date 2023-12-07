@@ -34,7 +34,7 @@ async def alive(_, message: Message):
     caption = f"""**HEY, I AM {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **CREATOR:** [𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~ 𝑺𝒂𝒎𝒂𓂀](https://t.me/Animes_Unity)
+✪ **MY OWNER:** [𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~ 𝑺𝒂𝒎𝒂𓂀](https://t.me/Animes_Unity)
 
 {library_versions_text}
 
