@@ -31,10 +31,10 @@ async def alive(_, message: Message):
         [f"➲ **{key}:** `{value}`" for key, value in library_versions.items()]
     )
 
-    caption = f"""**HEY, I AM {BOT_NAME}**
+    caption = f"""**Hey, I am {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **MY OWNER:** [𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~ 𝑺𝒂𝒎𝒂𓂀](https://t.me/Animes_Unity)
+✪ **My Owner:** [𓆰𝒀𝒖𝒖𝒊𝒄𝒉𝒊~ 𝑺𝒂𝒎𝒂𓂀](https://t.me/Animes_Unity)
 
 {library_versions_text}
 
