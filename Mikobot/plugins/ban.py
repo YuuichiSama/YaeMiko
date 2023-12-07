@@ -891,7 +891,7 @@ async def ban_usr(c: app, m: Message):
         await m.reply_text("That's an admin!")
         await m.stop_propagation()
     if user_id == BOT_ID:
-        await m.reply_text("Huh, why would I ban myself?")
+        await m.reply_text("Be in your limits, Why would I ban myself!")
         await m.stop_propagation()
 
     if user_id in SUPPORT_STAFF:
@@ -909,7 +909,7 @@ async def ban_usr(c: app, m: Message):
         admins_group = await admin_cache_reload(m, "ban")
 
     if user_id in admins_group:
-        await m.reply_text(text="This user is an admin, I cannot ban them!")
+        await m.reply_text(text="Sorry Darling, You are not worthy to wield ban hammer on an admin!")
         await m.stop_propagation()
 
     reason = None
